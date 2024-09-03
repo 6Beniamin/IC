@@ -1,2 +1,2 @@
-msg = "Beniamin Capota"
+msg = "Beniamin C"
 print(msg)
