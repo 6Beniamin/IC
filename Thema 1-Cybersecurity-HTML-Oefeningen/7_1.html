@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>oefening-1</title>
+</head>
+
+<body>
+  <h1>Tevredenheidsonderzoek</h1>
+  <p>Via onderstaande vragenlijst onderzoeken we hoe tevreden je was met de verschillende aspecten van ons evenement.</p>
+
+  <form action="">
+    <div style="margin-bottom: 20px;">
+      <label for="naam">Naam: </label>
+      <input type="text" id="naam" required>
+      <label for="achternaam">Achternaam: </label>
+      <input type="text" id="achternaam" required>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+      <label for="eten">Hoe tevreden was u over het eten? (0-10)</label>
+      <input id="eten" type="range" min="1" max="10" step="1" value="5">
+      <textarea id="eten-feedback" cols="40" rows="2" placeholder="Geef hier uw feedback over het eten..."></textarea>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+      <label for="drink">Hoe tevreden was u over het drinken? (0-10)</label>
+      <input id="drink" type="range" min="1" max="10" step="1" value="5">
+      <textarea id="drink-feedback" cols="40" rows="2" placeholder="Geef hier uw feedback over het drinken..."></textarea>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+      <label for="muziek">Hoe tevreden was u over de muziek? (0-10)</label>
+      <input id="muziek" type="range" min="1" max="10" step="1" value="5">
+      <textarea id="muziek-feedback" cols="40" rows="2" placeholder="Geef hier uw feedback over de muziek..."></textarea>
+    </div>
+
+    <div>
+      <button style="padding: 4px;">Verzenden</button>
+    </div>
+  </form>
+</body>
+
+</html>

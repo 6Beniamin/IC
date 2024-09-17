@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+
+    td,
+    th {
+      border: 1px solid black;
+      padding: 5px;
+    }
+
+    col {
+      background-color: #0cacac;
+    }
+
+    col.naam {
+      background-color: #4ea04e;
+    }
+
+    col.uitleg {
+      background-color: #a75454;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Formularium oppervlakte en omtrek van vlakke figuren</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Naam</th>
+        <th>Voorstelling</th>
+        <th>Omtrek</th>
+        <th>Oppervlakte</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Vierkant</td>
+        <td><svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+            <rect x="50" y="50" width="100" height="100" fill="blue" />
+          </svg></td>
+        <td>O = 4.z</td>
+        <td>A = z<sup>2</sup></td>
+      </tr>
+      <tr>
+        <td>Rechthoek</td>
+        <td><svg width="100" height="100">
+            <rect x="25" y="50" width="150" height="75" fill="red" xmlns="http://www.w3.org/2000/svg" />
+          </svg>
+        <td>O = 2.(1+b)</td>
+        <td>A = a.b</td>
+      </tr>
+      <tr>
+        <td>Driehoek</td>
+        <td><svg width="100" height="100">
+            <polygon points="50,0 0,80 100,80" fill="yellow" xmlns="http://www.w3.org/2000/svg" />
+          </svg>
+
+        </td>
+        <td>O = z1+z2+z3</td>
+        <td>A = 1/2.(b.h)</td>
+      </tr>
+      <tr>
+        <td>Cirkel</td>
+        <td><svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="50" fill="green" />
+          </svg>
+        </td>
+        <td>O = 2 &pi; r
+        </td>
+        <td>A = &pi; r<sup>2</sup> </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
