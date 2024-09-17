@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7_3</title>
+</head>
+<body>
+    <form>
+        <h1>Rapporteer ewen beveiligingsincident</h1>
+        <div>
+            <label for="email">Uw E-mailadres</label>
+            <input type="email" id="email" placeholder="Voer uw e-mailadres in">
+        </div>
+        <div>
+            <label for="typeincident">Wat voor incident heeft u gehad?</label>
+            <select id="typeincident">
+                <option value="-1">selecteer incident</option>
+                <option value="0">phishing</option>
+                <option value="1">malware infectie</option>
+                <option value="2">datalek of diefstal</option>
+                <option value="3">DDoS Aanval</option>
+                <option value="4">ongeautoriseerde toegang</option>
+            </select>
+        </div>
+        <div>
+            <label for="descriptionincident">Beschrijving van het incident:</label>
+            <textarea id="descriptionincident" placeholder="Beschrijf het incident gedetailleerd"></textarea>
+        </div>
+        <div>
+            <label for="datumincident">Datum van het Incident:</label>
+            <input type="date" id="datumincident">
+        </div>
+        <div>
+            <button type="reset">invoer resetten</button>
+            <button type="submit">incident rapporteren</button>
+        </div>
+    </form>
+</body>
+</html>
