@@ -1,0 +1,28 @@
+
+body{
+    background-color: lightgreen;
+}
+
+#Computerkraker + p{
+    color: blue;
+}
+
+#Hacktivisme{
+    color: green;
+}
+
+#Bedrijfsspionage{
+    color:yellow;
+}
+
+#Phishing{
+    color:orange;
+}
+
+#Malware{
+    color:red;
+}
+
+li::before{
+    content: "💻";
+}
