@@ -1,0 +1,16 @@
+body{
+    background-color: lightgray;
+}
+
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font: 28px;
+}
+a {
+    color: lightblue;
+}
+a:hover {
+    color: darkblue;
+}
