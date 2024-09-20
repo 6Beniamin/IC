@@ -1,0 +1,24 @@
+a {
+    font-size: 18px;
+}
+a:hover {
+    font-size: 25px;
+}
+
+  
+  li.laatste_lijst::after{
+    content: "---LINK---";
+    margin-left: 5px;
+  }
+  
+  ::selection {
+    color: blue;
+  }
+  
+  ::first-letter {
+    color: blue;
+  }
+  
+  main, footer{
+    background-color: lightgreen;
+  }
