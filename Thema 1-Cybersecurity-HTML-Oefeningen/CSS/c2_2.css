@@ -1,0 +1,17 @@
+body {
+    background-image: url("./backroundblue.jpg");
+    color: white;
+}
+
+img#afbeelding1 {
+    width: 50px;
+    transition: 0.5s;
+} 
+img#afbeelding1:hover {
+    width: 100px;
+}
+
+img#afbeelding2 {
+    filter: brightness(50%);
+    transform: rotate(5deg) skewY(10deg);
+}
