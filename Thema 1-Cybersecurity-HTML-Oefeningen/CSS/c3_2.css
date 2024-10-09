@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box; /* standaardwaarde is content-box */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    background-color: rgb(37, 89, 245);
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    border-bottom: 4px solid darkblue;
+    margin: 8px;
+}
+
+p {
+    background-color: lightgray;
+    padding: 3px;
+    border-left: 4px solid darkblue;
+    margin: 12px;
+}
+
+#naamachternaam {
+    background-color: lightgray;
+    padding: 3px;
+    border: 2px solid gray;
+    margin: 12px;
+}
+
+.slider {
+    background-color: lightgray;
+    padding: 3px;
+    border: 2px solid gray;
+    margin: 12px;
+}
+
+#verzenden {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius:6px;
+	border:1px solid #337fed;
+    margin: 8px;
+}
+
+#verzenden:hover {
+    background-color: lightblue;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 8px; /* Adds space between the input elements */
+}

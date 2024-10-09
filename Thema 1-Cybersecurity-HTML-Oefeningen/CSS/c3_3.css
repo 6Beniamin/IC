@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box; /* standaardwaarde is content-box */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(195, 215, 254);
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 2px solid darkblue;
+    margin: 0;
+}
+
+nav {
+    background-color: blue;
+    margin-bottom: 10px;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-inline: 5px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h2{
+    color: darkblue;
+    padding-left: 10px;
+}
+
+p {
+    padding: 5px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.twitter-tweet {
+    background-color: white;
+}
+
+#laatstenieuws {
+    padding-top: 15px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    background-color: white;
+}
+
+#laatstenieuws li{
+    list-style: none;
+}
+
+#laatstenieuws a{
+    text-decoration: none;
+    padding-bottom: 4px;
+}
+
+#laatstenieuws a:hover{
+    text-decoration: underline;
+}
+    
+footer{
+    text-align: center;
+}
+footer p{
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: 2px solid darkblue;
+    color: white;
+    display: inline-block;
+}

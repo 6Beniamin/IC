@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7_1</title>
+    <link rel="stylesheet" href="c3_2.css">
+</head>
+<body>
+    <form>
+        <div>
+            <h1>Tevredenheidsonderzoek</h1>
+        </div>
+        <div>
+            <p>Via onderstaande vragenlijst onderzoeken we hoe tevreden je was van de verschillende aspecten van ons evenement</p>
+        </div>
+        <div id="naamachternaam">
+            <label for="fname">Voornaam:</label>
+            <input type="text" id="fname" required>
+            <label for="flastname">Achternaam:</label>
+            <input type="text" id="flastname" required>
+        </div>
+        <div class="slider">
+            <label for="ratingfood">Hoe tevreden was u over het eten? (1-10)</label>
+            <input type="range" min="1" max="10" step="1" value="5" id="ratingfood">
+            <textarea id="ratingfood">Geef hier uw feedback over het eten...</textarea>
+        </div>
+        <div class="slider">
+            <label for="ratingdrinken">Hoe tevreden was u over het drinken? (1-10)</label>
+            <input type="range" min="1" max="10" step="1" value="5" id="ratingdrinken">
+            <textarea id="ratingdrinken">Geef hier uw feedback over het drinken...</textarea>
+        </div>
+        <div class="slider">
+            <label for="ratingmuziek">Hoe tevreden was u over de muziek? (1-10)</label>
+            <input type="range" min="1" max="10" step="1" value="5" id="ratingmuziek">
+            <textarea id="ratingmuziek">Geef hier uw feedback over de muziek...</textarea>
+        </div>
+        <div>
+            <button type="submit"  id="verzenden">verzenden</button>
+        </div>
+    </form>
+</body>
+</html>
