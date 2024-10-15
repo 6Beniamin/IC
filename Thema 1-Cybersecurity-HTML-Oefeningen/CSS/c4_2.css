@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box; /* standaardwaarde is content-box */
+}
+
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(74, 131, 174);
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.boekoverzicht {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.boek {
+    background: white;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+.boek:hover {
+    width: 450px;
+}
+
+.boek h3 {
+    color: cadetblue;
+}
+
+.boek img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.acteuroverzicht {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(118, 168, 151);
+    border: 2px;
+    border-radius: 8px;
+    flex-direction: column;
+    padding: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.acteur {
+    padding: 15px;
+    width: auto;
+    text-align: left;
+}
+
+.acteur img {
+    float: left;
+    width: 8%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+    border: 2px;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.acteur h3{
+    color: cadetblue;
+}
+
+footer {
+    background-color: rgb(21, 107, 124);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+#backtopbutton {
+    position: fixed;
+    top: 94%;
+    left: 90%;
+    background-color: rgb(13, 51, 59);
+    color: white;
+    height: 5%;
+    text-align: center;
+    border: 2px;
+    border-radius: 10px;
+}
+
+#backtopbutton:hover {
+    text-decoration: underline;
+}
